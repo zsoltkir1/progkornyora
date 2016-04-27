@@ -1,0 +1,29 @@
+A projekt használatához a Maven 3 telepítése szükséges, mely szabadon
+letölthető az alábbi címen:
+
+	http://maven.apache.org/
+
+A fordítást az
+
+	$ mvn compile
+
+parancs végrehajtásával lehet elvégezni. (Ezt és a többi parancsot is
+ebben a könyvtárban kell kiadni.)
+
+JAR állomány létrehozásához az
+
+	$ mvn package
+
+parancsot adjuk ki.
+
+A telepítés az
+
+	$ mvn install
+
+paranccsal végezhető el.
+
+Végül "takarításhoz" használjuk az
+
+	$ mvn clean
+
+parancsot.
